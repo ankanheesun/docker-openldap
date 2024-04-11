@@ -1,15 +1,15 @@
-dn: uid=billy,dc=example,dc=org
+dn: uid=minhdq,dc=integromics,dc=fr
 changetype: add
-uid: billy
-cn: billy
-sn: 3
+uid: minhdq
+cn: Quang-Minh DAO
+sn: Quang-Minh DAO
 objectClass: top
 objectClass: posixAccount
 objectClass: inetOrgPerson
-loginShell: /bin/bash
-homeDirectory: /home/billy
-uidNumber: 14583102
-gidNumber: 14564100
-userPassword: {SSHA}j3lBh1Seqe4rqF1+NuWmjhvtAni1JC5A
-mail: billy@example.org
-gecos: Billy User
+loginShell: /bin/zsh
+homeDirectory: /home/minhdq
+uidNumber: 1000
+gidNumber: 1000
+userPassword: {crypt}$6$.Jv3ma0n$0ll/Hk1/iQ4EUw71K/ze..tBATceigXC6JdiZ2HR.fZYtyBrl0dRji5kuCzo/VDicvSQLswlgc2iLl/FnmeC1/
+mail: minhdq.hust@gmail.com
+gecos: Quang-Minh DAO
